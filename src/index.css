@@ -1,0 +1,21 @@
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.rounded-button {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px; /* Make the buttons rounded */
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.rounded-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
